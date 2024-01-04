@@ -1,6 +1,6 @@
 # text-gif
 
-Make GIF of given text file, letter by letter or word by word
+Make GIF of given text file, letter by letter or word by word.
 
 The text files used in these examples are taken from https://en.wikipedia.org/wiki/Reading_comprehension
 
@@ -26,6 +26,13 @@ python make_text_gif.py --input_filename examples/text/example1.txt --output_dir
 python make_text_gif.py --input_filename examples/text/example2.txt --output_dir examples/gifs --output_name example2_by_letter --by_letter
 ```
 
+Make GIFs with shorter frame durations:
+
+```
+python make_text_gif.py --input_filename examples/text/example3.txt --output_dir examples/gifs --frame_duration_ms 250 --output_name example3
+python make_text_gif.py --input_filename examples/text/example3.txt --output_dir examples/gifs --frame_duration_ms 250 --output_name example3_by_letter --by_letter
+```
+
 Make GIFs containing words from `STDIN`:
 
 ```
@@ -47,6 +54,12 @@ Second example text file, by word and by letter:
 ![](examples/gifs/example2.gif)
 
 ![](examples/gifs/example2_by_letter.gif)
+
+Third example text file, by word and by letter, with faster frame duration:
+
+![](examples/gifs/example3.gif)
+
+![](examples/gifs/example3_by_letter.gif)
 
 `STDIN` example, by word and by letter:
 
