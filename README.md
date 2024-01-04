@@ -35,3 +35,21 @@ This is an example calling of the `make_text_gif.py` script
 ```
 
 ## Example outputs
+
+First example text file, by word and by letter:
+
+![](examples/gifs/example1.gif)
+
+![](examples/gifs/example1_by_letter.gif)
+
+Second example text file, by word and by letter:
+
+![](examples/gifs/example2.gif)
+
+![](examples/gifs/example2_by_letter.gif)
+
+`STDIN` example, by word and by letter:
+
+![](examples/gifs/stdin.gif)
+
+![](examples/gifs/stdin_by_letter.gif)
